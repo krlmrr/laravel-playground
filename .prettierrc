@@ -1,5 +1,6 @@
 {
-    "semi": true,
+    "semi": false,
+    "vueIndentScriptAndStyle": true,
     "singleQuote": true,
     "singleAttributePerLine": false,
     "htmlWhitespaceSensitivity": "css",

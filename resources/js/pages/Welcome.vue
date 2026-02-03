@@ -1,15 +1,15 @@
 <script setup lang="ts">
-import { Head, Link } from '@inertiajs/vue3';
-import { dashboard, login, register } from '@/routes';
+    import { Head, Link } from '@inertiajs/vue3'
+    import { dashboard, login, register } from '@/routes'
 
-withDefaults(
-    defineProps<{
-        canRegister: boolean;
-    }>(),
-    {
-        canRegister: true,
-    },
-);
+    withDefaults(
+        defineProps<{
+            canRegister: boolean
+        }>(),
+        {
+            canRegister: true,
+        },
+    )
 </script>
 
 <template>
